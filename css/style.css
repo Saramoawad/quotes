@@ -1,0 +1,47 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+background-image: url(../images/3d-space-sky.jpg);   
+height: 100vh;
+background-size: cover;
+font-family: 'Chelsea Market';
+/* background-position: center; */
+    
+}
+.main{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+h2{
+    font-size: 80px;
+}
+p{
+    font-size: 35px;
+}
+.btn{
+    background-color:rgba(244, 190, 13, 0); 
+    backdrop-filter: (15);
+    /* border: 1px solid rgb(244, 191, 13); */
+    box-shadow: 0px 0px 10px rgb(244, 191, 13);
+    border: none;
+    padding: 10px;
+
+}
+.btn:hover{
+    background-color: rgba(0, 0, 0, 0.182);
+}
+#quote{
+    height: fit-content;
+    box-shadow: 0px 0px 10px rgb(193, 192, 192);
+    border-radius: 30px;
+    margin-top: 20px;
+    color: rgb(244, 191, 13);
+    font-size: 20px;
+    padding: 20px;
+}
